@@ -3,5 +3,5 @@ from pyrogram import Client, Filters
 
 @Client.on_message(Filters.command(["help"]))
 async def start(client, message):
-    helptxt = f"Aw le! Youtube Video Mp3/Mp4 engpawh ka download theia, Mahse, Playlists a theih loh thung. Youtube URL Link lo thawn tawp la aw. Chuan Mp3/Mp4 i duh ilo thlang mai ang. Powered by @ZauTe_Km"
+    helptxt = f"__I am A powerful Youtube Downloader Telegram Bot Powered by Cat. Send me link of Youtube i can Download in Many Formats...Powered by Youtube Downloader by @Cat_of_TelegramX__"
     await message.reply_text(helptxt)
